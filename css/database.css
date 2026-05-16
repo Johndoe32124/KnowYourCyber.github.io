@@ -1,0 +1,411 @@
+/* =========================================================
+   DATABASE HEADER
+   ========================================================= */
+.database-header {
+  margin-bottom: 30px;
+}
+
+/* =========================================================
+   SEARCH STATS
+   ========================================================= */
+.search-stats {
+  display: flex;
+  gap: 15px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.stat-chip {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 40px;
+  padding: 8px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.chip-label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.chip-value {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* =========================================================
+   SEARCH CONTAINER
+   ========================================================= */
+.search-container {
+  margin: 25px 0;
+}
+
+.search-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  opacity: 0.5;
+  font-family: monospace;
+}
+
+#search {
+  width: 100%;
+  padding: 14px 15px 14px 45px;
+  background: var(--bg-dark);
+  border: 2px solid var(--border);
+  border-radius: 50px;
+  color: var(--text-light);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+#search:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 15px rgba(0, 208, 255, 0.2);
+}
+
+.clear-btn {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.clear-btn.hidden {
+  display: none;
+}
+
+/* =========================================================
+   FILTERS & YEAR SEARCH COMBINED
+   ========================================================= */
+.filter-section {
+  background: var(--bg-dark);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.search-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-btn {
+  padding: 8px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-dark);
+}
+
+/* year search within same container - LARGER INPUT */
+.year-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.year-search label {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.year-search #yearInput {
+  padding: 12px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-light);
+  width: 140px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.year-search #yearInput:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 10px rgba(0, 208, 255, 0.2);
+}
+
+.year-search #yearInput::-webkit-inner-spin-button,
+.year-search #yearInput::-webkit-outer-spin-button {
+  opacity: 0.5;
+}
+
+.cyber-btn.small {
+  padding: 10px 24px;
+  font-size: 0.85rem;
+}
+
+.cyber-btn.secondary {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-light);
+}
+
+.cyber-btn.secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: transparent;
+}
+
+.hidden {
+  display: none;
+}
+
+/* =========================================================
+   RESULTS GRID
+   ========================================================= */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+/* =========================================================
+   BREACH CARDS
+   ========================================================= */
+.card {
+  background: var(--bg-card);
+  padding: 22px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 208, 255, 0.08), transparent);
+  transition: left 0.5s ease;
+}
+
+.card:hover::before {
+  left: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+  color: var(--accent);
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+}
+
+.card p {
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.card p strong {
+  color: var(--text-light);
+}
+
+/* =========================================================
+   NO RESULTS CARD (hidden by default)
+   ========================================================= */
+.no-results-card {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  animation: fadeInUp 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1) forwards;
+}
+
+.no-results-card.hidden {
+  display: none;
+}
+
+.no-results-card.visible {
+  display: block;
+  animation: fadeInUp 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1) forwards;
+}
+
+.no-results-icon {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  color: var(--accent);
+  font-family: monospace;
+  animation: bounceIn 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1) 0.1s both;
+}
+
+.no-results-card h3 {
+  color: var(--accent);
+  margin-bottom: 10px;
+  animation: slideInRight 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1) 0.15s both;
+}
+
+.no-results-card p {
+  color: var(--text-muted);
+  margin-bottom: 25px;
+  animation: slideInRight 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1) 0.2s both;
+}
+
+.no-results-card .cyber-btn {
+  animation: fadeInUp 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1) 0.25s both;
+}
+
+/* =========================================================
+   ANIMATIONS FOR NO RESULTS CARD
+   ========================================================= */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* =========================================================
+   DATABASE INFO
+   ========================================================= */
+.database-info {
+  margin-top: 40px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.info-card {
+  background: var(--bg-card);
+  padding: 22px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.info-icon {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-family: monospace;
+}
+
+.info-card h4 {
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 768px) {
+  .search-filters {
+    justify-content: center;
+  }
+  
+  .year-search {
+    justify-content: center;
+  }
+  
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .filter-section {
+    padding: 15px;
+  }
+  
+  .year-search #yearInput {
+    width: 120px;
+  }
+}

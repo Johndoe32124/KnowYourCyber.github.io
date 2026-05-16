@@ -1,0 +1,142 @@
+/* =========================================================
+   PAGE TRANSITION ANIMATIONS - SPA STYLE
+   ========================================================= */
+
+/* Slide animations for content swapping */
+@keyframes slideOutToLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideOutToRight {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* =========================================================
+   LOADING INDICATOR
+   ========================================================= */
+.page-loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: var(--bg-card, #161b22);
+    padding: 20px 30px;
+    border-radius: 12px;
+    border: 1px solid var(--accent, #00d0ff);
+    z-index: 1000;
+}
+
+.page-loading-indicator .spinner {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--border, #30363d);
+    border-top-color: var(--accent, #00d0ff);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.page-loading-indicator span {
+    color: var(--text-light, #e6edf3);
+}
+
+/* =========================================================
+   NAVIGATION LINK UNDERLINE EFFECT
+   ========================================================= */
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent, #00d0ff);
+    transition: width 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+
+.nav-link:hover::after,
+.nav-link.active-nav::after {
+    width: 100%;
+}
+
+.nav-link.active-nav {
+    color: var(--accent, #00d0ff);
+}
+
+/* =========================================================
+   BUTTON EFFECTS
+   ========================================================= */
+.cyber-btn:active {
+    transform: scale(0.97);
+}
+
+/* =========================================================
+   PREVENT LAYOUT SHIFT
+   ========================================================= */
+main {
+    position: relative;
+    transition: min-height 0.2s ease;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* =========================================================
+   ENSURE NEW CONTENT IS VISIBLE
+   ========================================================= */
+.page-slide-in-right,
+.page-slide-in-left {
+    width: 100%;
+}

@@ -1,0 +1,1983 @@
+[
+  {
+    "company": "National Public Data",
+    "year": 2024,
+    "records": "2.9 billion",
+    "type": "Data breach",
+    "summary": "Background check company exposed 2.9 billion records including Social Security numbers, names, and addresses. The breach led to the company's bankruptcy and cessation of operations in October 2024."
+  },
+  {
+    "company": "Mother of All Breaches (MOAB)",
+    "year": 2024,
+    "records": "26 billion",
+    "type": "Data compilation",
+    "summary": "Massive dataset containing 26 billion records compiled from 3,876 websites, including LinkedIn, Twitter, Adobe, and Dropbox. Also included government organizations from US, Brazil, Germany, and other countries."
+  },
+  {
+    "company": "Conduent",
+    "year": 2024,
+    "records": "26 million",
+    "type": "Ransomware",
+    "summary": "Largest breach in US history exposed Social Security numbers and health records of 26 million Americans. Safepay ransomware group claimed responsibility, obtaining over 8 terabytes of data from this healthcare payment processor."
+  },
+  {
+    "company": "AT&T",
+    "year": 2024,
+    "records": "110 million",
+    "type": "Cloud breach",
+    "summary": "Hackers stole call and text records from AT&T's workspace on a third-party cloud platform. Affected nearly all wireless customers and MVNO users. AT&T paid attackers $370,000 ransom to delete stolen data."
+  },
+  {
+    "company": "Ticketmaster",
+    "year": 2024,
+    "records": "560 million",
+    "type": "Third-party breach",
+    "summary": "Unauthorized access to a cloud database hosted by third-party provider Snowflake. Exposed email addresses, phone numbers, and encrypted credit card information of North American customers."
+  },
+  {
+    "company": "Advanced Auto Parts",
+    "year": 2024,
+    "records": "380 million",
+    "type": "Cloud breach",
+    "summary": "Part of the Snowflake campaign where hackers stole terabytes of data from 165 organizations. Affected millions of customers with personal data exposure."
+  },
+  {
+    "company": "Change Healthcare",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Ransomware attack affecting patients, healthcare providers, and insurers. Exposed names, contact details, health insurance information, SSNs, medical records, diagnoses, and financial data."
+  },
+  {
+    "company": "Financial Business and Consumer Solutions (FBCS)",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Network breach",
+    "summary": "Unauthorized access to internal network from February 14-26, 2024. Exposed names, addresses, SSNs, driver's licenses, medical claims, and health insurance details."
+  },
+  {
+    "company": "Dell",
+    "year": 2024,
+    "records": "49 million",
+    "type": "Portal breach",
+    "summary": "Unauthorized access to Dell portal exposed customer names, physical addresses, hardware details, and order information for purchases between 2017-2024."
+  },
+  {
+    "company": "Infosys McCamish Systems",
+    "year": 2023,
+    "records": "6.5 million",
+    "type": "Data breach",
+    "summary": "November 2023 cybersecurity incident exposed personal information including email addresses, phone numbers, birth dates, Social Security numbers, and financial account data."
+  },
+  {
+    "company": "Comcast",
+    "year": 2023,
+    "records": "30 million",
+    "type": "System breach",
+    "summary": "Hackers gained access to internal systems due to delayed patching of Citrix Systems vulnerability. Exposed usernames, passwords, contact info, and last 4 digits of SSNs."
+  },
+  {
+    "company": "CannonDesign",
+    "year": 2023,
+    "records": "13,000",
+    "type": "Ransomware",
+    "summary": "Avos Locker ransomware attack in January 2023 exposed 5.7 TB of data including names, addresses, SSNs, and driver's license numbers. Data later published by Dunghill Leaks."
+  },
+  {
+    "company": "Laboratory Services Cooperative (LSC)",
+    "year": 2024,
+    "records": "1.6 million",
+    "type": "Cyberattack",
+    "summary": "October 2024 attack on nonprofit lab testing provider exposed names, DOB, SSNs, lab results, diagnoses, insurance data, and payment card information from reproductive health clinics across 31 states."
+  },
+  {
+    "company": "DaVita",
+    "year": 2025,
+    "records": "2.7 million",
+    "type": "Ransomware",
+    "summary": "Ransomware attack encrypted parts of network after attackers accessed lab-related servers from March 24 to April 12, 2025. Exposed sensitive data from dialysis labs database."
+  },
+  {
+    "company": "Allianz Life",
+    "year": 2025,
+    "records": "1.4 million",
+    "type": "Social engineering",
+    "summary": "Social engineering attack against third-party cloud-based CRM affected majority of US customers. Exposed sensitive customer data through vendor compromise on July 16, 2025."
+  },
+  {
+    "company": "Bell Ambulance",
+    "year": 2025,
+    "records": "114,000",
+    "type": "Ransomware",
+    "summary": "Medusa ransomware group attacked Milwaukee-based ambulance service on February 13, 2025, stealing over 200 GB of data including names, SSNs, driver's licenses, and health information."
+  },
+  {
+    "company": "Alabama Ophthalmology Associates",
+    "year": 2025,
+    "records": "131,000",
+    "type": "Ransomware",
+    "summary": "BianLian ransomware attack in late January 2025 exposed patient data including SSNs, driver's license details, medical records, and insurance information."
+  },
+  {
+    "company": "Hertz Corporation",
+    "year": 2024,
+    "records": "3,409",
+    "type": "Zero-day exploit",
+    "summary": "Attackers exploited zero-day vulnerabilities in Cleo integration platform (Oct-Dec 2024). Exposed names, contact info, DOB, credit card data, driver's licenses, and SSNs across Hertz, Thrifty, and Dollar brands."
+  },
+  {
+    "company": "Bank of America",
+    "year": 2024,
+    "records": "414",
+    "type": "Third-party breach",
+    "summary": "Improper handling of sensitive documents by third-party destruction vendor on December 30, 2024. Documents containing SSNs and financial data found outside secure containers."
+  },
+  {
+    "company": "Samsung",
+    "year": 2025,
+    "records": "270,000",
+    "type": "Credential breach",
+    "summary": "Hacker exploited long-compromised credentials from 2021 Racoon infostealer attack on third-party vendor Spectos GmbH. Exposed customer support records including names, emails, addresses, and order data."
+  },
+  {
+    "company": "Reputation.com",
+    "year": 2025,
+    "records": "120 million",
+    "type": "Data leak",
+    "summary": "320GB of logs containing 120 million records exposed online since August 2025. Included cookies, timestamps, and identifiers affecting Fortune 500 companies including US Bank, Ford, GM, and BMW dealerships."
+  },
+  {
+    "company": "Grubhub",
+    "year": 2026,
+    "records": "Undisclosed",
+    "type": "Supply chain attack",
+    "summary": "Data theft linked to Salesloft Drift/Salesforce-token incident. Attackers downloaded data from systems using credentials stolen during 2025 Salesloft Drift OAuth-token compromise."
+  },
+  {
+    "company": "Ingram Micro",
+    "year": 2025,
+    "records": "42,521",
+    "type": "Ransomware",
+    "summary": "Ransomware attack with data exfiltration from internal file repositories on July 2-3, 2025. Exposed employee and applicant data including government ID numbers."
+  },
+  {
+    "company": "Port of Seattle/Sea-Tac Airport",
+    "year": 2024,
+    "records": "90,000",
+    "type": "Ransomware",
+    "summary": "Rhysida ransomware group attacked on August 24, 2024, exposing PII including names, DOB, SSNs, government ID numbers, and medical info. Disrupted airport operations including kiosks and display boards."
+  },
+  {
+    "company": "City of Columbus, Ohio",
+    "year": 2024,
+    "records": "500,000",
+    "type": "Ransomware",
+    "summary": "July 18, 2024 ransomware attack exposed financial data including SSNs and bank details. Ransomware group claimed 6.5 terabytes of data, including PHI for under 1,000 individuals in Fire division database."
+  },
+  {
+    "company": "CDK Global",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Cyberattack",
+    "summary": "June 2024 cyberattack caused widespread outage for auto dealership systems across the US, disrupting operations for thousands of car dealers."
+  },
+  {
+    "company": "Ascension",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "May 2024 ransomware attack on major healthcare system disrupted operations and exposed patient data across multiple states."
+  },
+  {
+    "company": "City of St. Paul, Minnesota",
+    "year": 2025,
+    "records": "43 GB",
+    "type": "Ransomware",
+    "summary": "July 2025 ransomware attack triggered emergency declaration and Minnesota National Guard cyber unit activation. Ransomware group posted approximately 43 GB of stolen data online."
+  },
+  {
+    "company": "Erie Indemnity Company",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Network breach",
+    "summary": "June 2024 experienced unusual network activity and system outages, indicating a significant cybersecurity incident affecting operations."
+  },
+  {
+    "company": "Philadelphia Insurance Companies",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "June 2024 major ransomware attack kept staff offline for over 3 days, disrupting insurance operations."
+  },
+  {
+    "company": "United Natural Foods (UNFI)",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Network breach",
+    "summary": "June 2024 took systems offline after discovering unauthorized activity on internal networks."
+  },
+  {
+    "company": "Aflac",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "June 2024 cybersecurity incident potentially compromised personal customer information of the insurance company."
+  },
+  {
+    "company": "Salesforce",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Social engineering",
+    "summary": "June 2024 hackers tricked employees into installing a fake version of Salesforce's Data Loader app, compromising internal systems."
+  },
+  {
+    "company": "Victoria's Secret",
+    "year": 2024,
+    "records": "Undisclosed",
+    "type": "Network breach",
+    "summary": "May 2024 suspended most website and in-store functionality to prevent unauthorized network access after detecting suspicious activity."
+  },
+  {
+    "company": "Clorox",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Cyberattack",
+    "summary": "August 2023 cyber attack caused widespread distribution disruptions; company fully restored operations by February 2024."
+  },
+  {
+    "company": "MGM Resorts International",
+    "year": 2023,
+    "records": "Millions",
+    "type": "Data breach",
+    "summary": "September 2023 ransomware attack affecting millions of customers. Company reached $45 million settlement covering 2019 and 2023 breaches."
+  },
+  {
+    "company": "Yahoo",
+    "year": 2017,
+    "records": "3 billion",
+    "type": "Account breach",
+    "summary": "All existing Yahoo accounts were affected by a large-scale breach exposing names, emails, and hashed passwords."
+  },
+  {
+    "company": "Facebook",
+    "year": 2021,
+    "records": "533 million",
+    "type": "Data leak",
+    "summary": "Publicly accessible phone numbers and personal data were scraped from user profiles and shared online."
+  },
+  {
+    "company": "LinkedIn",
+    "year": 2021,
+    "records": "700 million",
+    "type": "Scraped data",
+    "summary": "Profile information from hundreds of millions of users was collected and sold on hacking forums."
+  },
+  {
+    "company": "Adobe",
+    "year": 2013,
+    "records": "153 million",
+    "type": "Credential breach",
+    "summary": "Usernames, encrypted passwords, and password hints were stolen from Adobe's systems."
+  },
+  {
+    "company": "Equifax",
+    "year": 2017,
+    "records": "147 million",
+    "type": "Data breach",
+    "summary": "Sensitive personal information, including Social Security numbers and birth dates, was exposed in a major incident."
+  },
+  {
+    "company": "Marriott International",
+    "year": 2018,
+    "records": "500 million",
+    "type": "Data breach",
+    "summary": "Starwood guest reservation database breached, exposing names, passport numbers, and payment card information."
+  },
+  {
+    "company": "Under Armour (MyFitnessPal)",
+    "year": 2018,
+    "records": "150 million",
+    "type": "Data breach",
+    "summary": "Usernames, email addresses, and hashed passwords of MyFitnessPal users were compromised."
+  },
+  {
+    "company": "eBay",
+    "year": 2014,
+    "records": "145 million",
+    "type": "Credential breach",
+    "summary": "Hackers compromised employee credentials to access customer database containing names, addresses, and encrypted passwords."
+  },
+  {
+    "company": "Target",
+    "year": 2013,
+    "records": "110 million",
+    "type": "Payment breach",
+    "summary": "Credit card data and personal information of customers exposed through HVAC vendor credentials during holiday season."
+  },
+  {
+    "company": "Home Depot",
+    "year": 2014,
+    "records": "56 million",
+    "type": "Payment breach",
+    "summary": "Payment card data compromised through custom malware on self-checkout systems."
+  },
+  {
+    "company": "Uber",
+    "year": 2016,
+    "records": "57 million",
+    "type": "Data breach",
+    "summary": "Hackers accessed names, email addresses, and phone numbers of drivers and riders; company paid $100,000 to conceal breach."
+  },
+  {
+    "company": "Anthem Inc.",
+    "year": 2015,
+    "records": "78.8 million",
+    "type": "Data breach",
+    "summary": "Names, birthdays, Social Security numbers, and health records of customers exposed through spear phishing attack."
+  },
+  {
+    "company": "JPMorgan Chase",
+    "year": 2014,
+    "records": "76 million",
+    "type": "Data breach",
+    "summary": "Contact information of households affected; no financial data compromised but names, emails, and addresses exposed."
+  },
+  {
+    "company": "Walmart (Sam's Club)",
+    "year": 2019,
+    "records": "Undisclosed",
+    "type": "Data exposure",
+    "summary": "Sam's Club pharmacy patient records temporarily visible online due to misconfigured server."
+  },
+  {
+    "company": "Capital One",
+    "year": 2019,
+    "records": "106 million",
+    "type": "Cloud breach",
+    "summary": "Former AWS employee exploited firewall misconfiguration to access credit card applications and customer data."
+  },
+  {
+    "company": "First American Corporation",
+    "year": 2019,
+    "records": "885 million",
+    "type": "Data leak",
+    "summary": "Title insurance company exposed 885 million financial records dating back to 2003 through website without authentication."
+  },
+  {
+    "company": "Zynga",
+    "year": 2019,
+    "records": "218 million",
+    "type": "Data breach",
+    "summary": "Hackers accessed game player data including email addresses, usernames, and hashed passwords from Draw Something and Words With Friends."
+  },
+  {
+    "company": "Canva",
+    "year": 2019,
+    "records": "137 million",
+    "type": "Data breach",
+    "summary": "Australian design platform used by US customers exposed usernames, emails, and hashed passwords to hacker 'Gnosticplayers'."
+  },
+  {
+    "company": "DoorDash",
+    "year": 2019,
+    "records": "4.9 million",
+    "type": "Data breach",
+    "summary": "Third-party vendor compromise exposed customer names, emails, delivery addresses, and hashed passwords of drivers and merchants."
+  },
+  {
+    "company": "Quora",
+    "year": 2018,
+    "records": "100 million",
+    "type": "Data breach",
+    "summary": "Unauthorized access to user data including names, email addresses, encrypted passwords, and content from linked social networks."
+  },
+  {
+    "company": "T-Mobile",
+    "year": 2021,
+    "records": "53 million",
+    "type": "Data breach",
+    "summary": "Hacker accessed customer data including names, Social Security numbers, and driver's license information through testing environments."
+  },
+  {
+    "company": "T-Mobile",
+    "year": 2023,
+    "records": "37 million",
+    "type": "Data breach",
+    "summary": "API vulnerability exposed customer names, addresses, and phone numbers of postpaid and prepaid accounts."
+  },
+  {
+    "company": "Experian",
+    "year": 2015,
+    "records": "15 million",
+    "type": "Data breach",
+    "summary": "T-Mobile data processed by Experian compromised, exposing names, addresses, and SSNs of T-Mobile credit applicants."
+  },
+  {
+    "company": "Facebook",
+    "year": 2019,
+    "records": "540 million",
+    "type": "Data exposure",
+    "summary": "Two datasets stored on Amazon cloud servers unprotected, containing user IDs, comments, and likes."
+  },
+  {
+    "company": "Facebook",
+    "year": 2019,
+    "records": "419 million",
+    "type": "Data leak",
+    "summary": "Unprotected database exposed phone numbers linked to Facebook accounts across multiple servers."
+  },
+  {
+    "company": "Microsoft",
+    "year": 2019,
+    "records": "250 million",
+    "type": "Data exposure",
+    "summary": "Five Elasticsearch servers exposed customer support and service logs containing emails, IP addresses, and support case details."
+  },
+  {
+    "company": "Microsoft",
+    "year": 2020,
+    "records": "250 million",
+    "type": "Data leak",
+    "summary": "Customer service records exposed online due to misconfigured database security rules."
+  },
+  {
+    "company": "Google+",
+    "year": 2018,
+    "records": "500,000",
+    "type": "API vulnerability",
+    "summary": "Bug in Google+ API exposed profile data of users; Google shut down consumer version early due to breach."
+  },
+  {
+    "company": "Snapchat",
+    "year": 2018,
+    "records": "Undisclosed",
+    "type": "API breach",
+    "summary": "Hackers exploited API vulnerability to access user phone numbers and launch spam attacks."
+  },
+  {
+    "company": "Snapchat",
+    "year": 2014,
+    "records": "4.6 million",
+    "type": "Data leak",
+    "summary": "Usernames and phone numbers of 4.6 million users leaked through third-party app exploitation."
+  },
+  {
+    "company": "Verizon",
+    "year": 2017,
+    "records": "14 million",
+    "type": "Data exposure",
+    "summary": "Names, phone numbers, and PINs of prepaid customers exposed due to misconfigured cloud storage."
+  },
+  {
+    "company": "Verizon",
+    "year": 2016,
+    "records": "1.5 million",
+    "type": "Data breach",
+    "summary": "Enterprise customer data including names, emails, and phone numbers compromised through insider threat."
+  },
+  {
+    "company": "Walmart",
+    "year": 2015,
+    "records": "1.3 million",
+    "type": "Payment breach",
+    "summary": "POS malware at Canadian stores exposed payment card data of customers; also affected US online customers."
+  },
+  {
+    "company": "Kmart",
+    "year": 2014,
+    "records": "Undisclosed",
+    "type": "Payment breach",
+    "summary": "POS malware infected systems at hundreds of stores, compromising payment card data."
+  },
+  {
+    "company": "Staples",
+    "year": 2014,
+    "records": "1.16 million",
+    "type": "Payment breach",
+    "summary": "POS systems at 115 stores infected with malware, exposing payment card data."
+  },
+  {
+    "company": "Michaels Stores",
+    "year": 2014,
+    "records": "3 million",
+    "type": "Payment breach",
+    "summary": "POS malware at Michaels and Aaron Brothers stores compromised payment card data."
+  },
+  {
+    "company": "Neiman Marcus",
+    "year": 2014,
+    "records": "350,000",
+    "type": "Payment breach",
+    "summary": "POS malware exposed payment card data of customers over several months."
+  },
+  {
+    "company": "P.F. Chang's",
+    "year": 2014,
+    "records": "Undisclosed",
+    "type": "Payment breach",
+    "summary": "POS malware at 33 restaurants compromised payment card data of customers."
+  },
+  {
+    "company": "Sally Beauty Supply",
+    "year": 2014,
+    "records": "25,000",
+    "type": "Payment breach",
+    "summary": "POS systems infected with malware, exposing limited number of payment cards."
+  },
+  {
+    "company": "Bebe Stores",
+    "year": 2015,
+    "records": "Undisclosed",
+    "type": "Payment breach",
+    "summary": "Payment card data compromised at multiple store locations through POS malware."
+  },
+  {
+    "company": "Seven Feathers Casino",
+    "year": 2015,
+    "records": "Undisclosed",
+    "type": "POS breach",
+    "summary": "POS systems compromised exposing payment card data of casino customers."
+  },
+  {
+    "company": "Blue Cross Blue Shield",
+    "year": 2015,
+    "records": "1.1 million",
+    "type": "Data breach",
+    "summary": "Premera Blue Cross breached exposing medical records and personal data of 11 million customers."
+  },
+  {
+    "company": "CareFirst BlueCross",
+    "year": 2015,
+    "records": "1.1 million",
+    "type": "Data breach",
+    "summary": "Hackers accessed database containing customer names, emails, and health plan information."
+  },
+  {
+    "company": "Excellus BlueCross",
+    "year": 2015,
+    "records": "10.5 million",
+    "type": "Data breach",
+    "summary": "Cyberattack exposed personal data including names, addresses, and SSNs of members."
+  },
+  {
+    "company": "UCLA Health",
+    "year": 2015,
+    "records": "4.5 million",
+    "type": "Data breach",
+    "summary": "Hackers accessed network containing patient names, addresses, and medical records."
+  },
+  {
+    "company": "Medical Informatics Engineering",
+    "year": 2015,
+    "records": "3.9 million",
+    "type": "Data breach",
+    "summary": "Health IT company breached exposing patient names, SSNs, and medical records from multiple providers."
+  },
+  {
+    "company": "Advocate Health Care",
+    "year": 2017,
+    "records": "4 million",
+    "type": "Data breach",
+    "summary": "Unencrypted laptops stolen containing patient names, medical records, and SSNs."
+  },
+  {
+    "company": "Nationwide Insurance",
+    "year": 2012,
+    "records": "1.1 million",
+    "type": "Data theft",
+    "summary": "Laptop stolen containing names, SSNs, and driver's license numbers of insurance customers."
+  },
+  {
+    "company": "Aetna",
+    "year": 2017,
+    "records": "12,000",
+    "type": "Data exposure",
+    "summary": "HIV status of customers exposed through visible envelope windows in mailings."
+  },
+  {
+    "company": "CVS Health",
+    "year": 2018,
+    "records": "Undisclosed",
+    "type": "Data exposure",
+    "summary": "Online search function exposed patient prescription details of Aetna members (CVS acquired Aetna)."
+  },
+  {
+    "company": "Walgreens",
+    "year": 2019,
+    "records": "Undisclosed",
+    "type": "Data exposure",
+    "summary": "App notification feature exposed prescription information of other customers."
+  },
+  {
+    "company": "Rite Aid",
+    "year": 2017,
+    "records": "Undisclosed",
+    "type": "Data exposure",
+    "summary": "Customer purchase history and personal data exposed through misconfigured server."
+  },
+  {
+    "company": "Quest Diagnostics",
+    "year": 2019,
+    "records": "11.9 million",
+    "type": "Data breach",
+    "summary": "AMCA billing collection vendor breach exposed patient financial and medical data."
+  },
+  {
+    "company": "LabCorp",
+    "year": 2019,
+    "records": "7.7 million",
+    "type": "Vendor breach",
+    "summary": "AMCA billing vendor breach exposed patient names, DOB, and payment card data."
+  },
+  {
+    "company": "American Medical Collection Agency",
+    "year": 2019,
+    "records": "20 million",
+    "type": "Data breach",
+    "summary": "Payment page compromised exposing data from Quest, LabCorp, and other healthcare clients."
+  },
+  {
+    "company": "HCA Healthcare",
+    "year": 2023,
+    "records": "11 million",
+    "type": "Data leak",
+    "summary": "Patient data posted on online forum after being stolen from HCA storage location."
+  },
+  {
+    "company": "Enzo Clinical Labs",
+    "year": 2023,
+    "records": "2.4 million",
+    "type": "Ransomware",
+    "summary": "Ransomware attack exposed patient names, SSNs, and medical test results."
+  },
+  {
+    "company": "Regal Medical Group",
+    "year": 2022,
+    "records": "3.3 million",
+    "type": "Ransomware",
+    "summary": "Ransomware attack exposed patient medical records and personal data of Southern California patients."
+  },
+  {
+    "company": "Shields Health Care Group",
+    "year": 2022,
+    "records": "2 million",
+    "type": "Data breach",
+    "summary": "Hackers accessed patient data including SSNs and medical records through vendor compromise."
+  },
+  {
+    "company": "Professional Finance Company",
+    "year": 2022,
+    "records": "1.9 million",
+    "type": "Data breach",
+    "summary": "Debt collection vendor breach exposed patient data from multiple healthcare providers."
+  },
+  {
+    "company": "Piedmont Healthcare",
+    "year": 2023,
+    "records": "1.8 million",
+    "type": "Vendor breach",
+    "summary": "Patient data exposed through third-party vendor security incident."
+  },
+  {
+    "company": "Novant Health",
+    "year": 2022,
+    "records": "1.3 million",
+    "type": "Vendor breach",
+    "summary": "Patient data exposed through third-party analytics tracking tools."
+  },
+  {
+    "company": "San Diego Unified School District",
+    "year": 2023,
+    "records": "500,000",
+    "type": "Ransomware",
+    "summary": "Ransomware attack exposed student and employee data including SSNs and medical records."
+  },
+  {
+    "company": "Los Angeles Unified School District",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Vice Society ransomware attack disrupted operations and exposed student data."
+  },
+  {
+    "company": "Minneapolis Public Schools",
+    "year": 2023,
+    "records": "105,000",
+    "type": "Ransomware",
+    "summary": "Medusa ransomware group leaked student and staff data after attack."
+  },
+  {
+    "company": "Seattle Public Schools",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "LockBit ransomware attack compromised student and staff data."
+  },
+  {
+    "company": "Clark County School District",
+    "year": 2023,
+    "records": "363,000",
+    "type": "Ransomware",
+    "summary": "Quantum ransomware group attacked Nevada's largest school district exposing student data."
+  },
+  {
+    "company": "Dallas Independent School District",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Royal ransomware attack disrupted operations in Texas's second-largest school district."
+  },
+  {
+    "company": "Broward County Public Schools",
+    "year": 2023,
+    "records": "50,000",
+    "type": "Data breach",
+    "summary": "Student and employee data exposed through vendor MOVEit vulnerability."
+  },
+  {
+    "company": "PBS",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Multiple PBS stations affected by ransomware attack on technology provider."
+  },
+  {
+    "company": "NPR",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "News organization affected by ransomware attack on media technology provider."
+  },
+  {
+    "company": "The Weather Channel",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Programming disruptions during hurricane coverage due to ransomware attack."
+  },
+  {
+    "company": "Cox Media Group",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Television and radio stations affected by ransomware attack on broadcast systems."
+  },
+  {
+    "company": "The Dallas Morning News",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Production systems disrupted due to ransomware attack on newspaper operations."
+  },
+  {
+    "company": "Lee Enterprises",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Major US newspaper publisher disrupted by ransomware attack affecting 77 publications."
+  },
+  {
+    "company": "Tribune Publishing",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Los Angeles Times and Chicago Tribune affected by ransomware attack."
+  },
+  {
+    "company": "Gannett",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "USA Today publisher affected by ransomware attack on printing operations."
+  },
+  {
+    "company": "Hulu",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "User accounts compromised through credential stuffing attacks."
+  },
+  {
+    "company": "Netflix",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "User accounts compromised through credential stuffing and phishing campaigns."
+  },
+  {
+    "company": "Disney+",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "Streaming accounts compromised through credential stuffing attacks."
+  },
+  {
+    "company": "Paramount+",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "User accounts accessed through credential stuffing using passwords from other breaches."
+  },
+  {
+    "company": "Peacock",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "NBCUniversal streaming service accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Fox Sports",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts and personal information exposed through credential stuffing attacks."
+  },
+  {
+    "company": "ESPN",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "Sports streaming and website accounts compromised through credential stuffing."
+  },
+  {
+    "company": "NBA",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "League Pass streaming accounts compromised through credential stuffing attacks."
+  },
+  {
+    "company": "MLB",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "MLB.TV subscriber accounts accessed through credential stuffing using breached passwords."
+  },
+  {
+    "company": "NFL",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "Game Pass accounts compromised through credential stuffing attacks."
+  },
+  {
+    "company": "WWE",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "Network streaming accounts compromised through credential stuffing."
+  },
+  {
+    "company": "UFC",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "Fight Pass subscriber accounts accessed through credential stuffing."
+  },
+  {
+    "company": "DraftKings",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Credential stuffing",
+    "summary": "Customer accounts compromised through credential stuffing, funds stolen from accounts."
+  },
+  {
+    "company": "FanDuel",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Credential stuffing",
+    "summary": "Sports betting accounts accessed through credential stuffing attacks."
+  },
+  {
+    "company": "BetMGM",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Credential stuffing",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Caesars Entertainment",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Ransomware attack on casino and hotel chain exposed customer loyalty program data."
+  },
+  {
+    "company": "Marriott International",
+    "year": 2022,
+    "records": "20 GB",
+    "type": "Data breach",
+    "summary": "Threat actors stole 20 GB of data including guest information from hotel chain."
+  },
+  {
+    "company": "Hilton Hotels",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Guest information exposed through third-party vendor security incident."
+  },
+  {
+    "company": "Hyatt Hotels",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Payment card data of guests compromised at multiple properties."
+  },
+  {
+    "company": "InterContinental Hotels Group",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Holiday Inn and Crowne Plaza brands affected by cyberattack."
+  },
+  {
+    "company": "Choice Hotels",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Franchise hotel chain exposed customer data through third-party breach."
+  },
+  {
+    "company": "Omni Hotels & Resorts",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Daixin Team ransomware attack disrupted reservations and operations."
+  },
+  {
+    "company": "Loews Hotels",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Guest data exposed through third-party vendor security incident."
+  },
+  {
+    "company": "Four Seasons Hotels",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Luxury hotel chain customer data exposed through third-party breach."
+  },
+  {
+    "company": "Delta Air Lines",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer payment data potentially exposed through third-party vendor breach."
+  },
+  {
+    "company": "American Airlines",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Employee and customer data exposed through phishing attack."
+  },
+  {
+    "company": "United Airlines",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data potentially exposed through third-party vendor security incident."
+  },
+  {
+    "company": "Southwest Airlines",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Rapid Rewards member accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Alaska Airlines",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Mileage Plan member data exposed through third-party vendor incident."
+  },
+  {
+    "company": "JetBlue Airways",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "TrueBlue member accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Spirit Airlines",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer personal information exposed through data breach."
+  },
+  {
+    "company": "Frontier Airlines",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Frequent flyer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Uber",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Network breach",
+    "summary": "Hacker accessed internal systems through social engineering of employee."
+  },
+  {
+    "company": "Lyft",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer and driver data exposed through third-party vendor incident."
+  },
+  {
+    "company": "DoorDash",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer and driver data exposed through third-party vendor compromise."
+  },
+  {
+    "company": "Uber Eats",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through credential stuffing attacks."
+  },
+  {
+    "company": "Grubhub",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer and driver data exposed through third-party vendor incident."
+  },
+  {
+    "company": "Postmates",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Chipotle",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "McDonald's",
+    "year": 2021,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer and employee data exposed through data breach in multiple countries."
+  },
+  {
+    "company": "Subway",
+    "year": 2021,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Ransomware attack disrupted operations and exposed financial data."
+  },
+  {
+    "company": "Yum! Brands (KFC, Taco Bell, Pizza Hut)",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Ransomware attack disrupted UK operations and exposed employee data."
+  },
+  {
+    "company": "Wendy's",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Dunkin' Donuts",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Credential stuffing",
+    "summary": "DD Perks rewards accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Starbucks",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Credential stuffing",
+    "summary": "Rewards accounts accessed through credential stuffing, funds stolen from stored value."
+  },
+  {
+    "company": "Panera Bread",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Kroger",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Pharmacy and customer data exposed through third-party vendor breach."
+  },
+  {
+    "company": "Walgreens",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data exposed through third-party vendor security incident."
+  },
+  {
+    "company": "CVS Health",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data exposed through third-party vendor incident."
+  },
+  {
+    "company": "Rite Aid",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer prescription and personal data exposed through breach."
+  },
+  {
+    "company": "Costco",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Sam's Club",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Member accounts accessed through credential stuffing."
+  },
+  {
+    "company": "BJ's Wholesale Club",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Member rewards accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Target",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Walmart",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Amazon",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Seller and customer data exposed through third-party vendor breach."
+  },
+  {
+    "company": "eBay",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Etsy",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Seller and buyer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Wish",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Wayfair",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Overstock",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Zillow",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Redfin",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Realtor.com",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Airbnb",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Host and guest accounts compromised through credential stuffing."
+  },
+  {
+    "company": "VRBO",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Booking.com",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Expedia",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Hotels.com",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Orbitz",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Travelocity",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Priceline",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Kayak",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Chewy",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Petco",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "PetSmart",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "1-800-Flowers",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Fandango",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "AMC Theatres",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Stubs rewards accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Regal Cinemas",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Crown Club rewards accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Cinemark",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Movie Club accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Spotify",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Apple Music",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Pandora",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "SoundCloud",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Tidal",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Deezer",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through credential stuffing."
+  },
+  {
+    "company": "SiriusXM",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Patreon",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Creator and patron accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Kickstarter",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "GoFundMe",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Donor and campaign accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Indiegogo",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Venmo",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through credential stuffing."
+  },
+  {
+    "company": "PayPal",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Cash App",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Zelle",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing and social engineering."
+  },
+  {
+    "company": "Chime",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "SoFi",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Member accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Robinhood",
+    "year": 2021,
+    "records": "7 million",
+    "type": "Data breach",
+    "summary": "Customer email addresses and names exposed; some accounts accessed with SSNs and DOB compromised."
+  },
+  {
+    "company": "Coinbase",
+    "year": 2021,
+    "records": "6,000",
+    "type": "Account breach",
+    "summary": "Customer accounts compromised through MFA vulnerability; funds stolen."
+  },
+  {
+    "company": "BlockFi",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data exposed through third-party vendor breach."
+  },
+  {
+    "company": "Crypto.com",
+    "year": 2022,
+    "records": "483",
+    "type": "Account breach",
+    "summary": "Unauthorized withdrawals from user accounts through security bypass."
+  },
+  {
+    "company": "FTX",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data exposed through bankruptcy proceedings and security incident."
+  },
+  {
+    "company": "OpenSea",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User email addresses exposed through third-party vendor breach."
+  },
+  {
+    "company": "Rarible",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts compromised through phishing attack."
+  },
+  {
+    "company": "Nifty Gateway",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Facebook",
+    "year": 2018,
+    "records": "50 million",
+    "type": "API vulnerability",
+    "summary": "Access tokens stolen allowing attackers to take over accounts through 'View As' feature vulnerability."
+  },
+  {
+    "company": "Instagram",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Account breach",
+    "summary": "User accounts compromised through credential stuffing and phishing."
+  },
+  {
+    "company": "Twitter",
+    "year": 2020,
+    "records": "130",
+    "type": "Social engineering",
+    "summary": "High-profile accounts compromised through phone spear phishing of employees."
+  },
+  {
+    "company": "Twitter",
+    "year": 2022,
+    "records": "5.4 million",
+    "type": "API vulnerability",
+    "summary": "Zero-day vulnerability exposed user account data including phone numbers and emails."
+  },
+  {
+    "company": "LinkedIn",
+    "year": 2022,
+    "records": "500 million",
+    "type": "Scraped data",
+    "summary": "Profile data scraped from public profiles and posted for sale on hacking forums."
+  },
+  {
+    "company": "Snapchat",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Phishing",
+    "summary": "Employee payroll data exposed through phishing attack."
+  },
+  {
+    "company": "TikTok",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User data potentially exposed through security incident."
+  },
+  {
+    "company": "Reddit",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Internal documents and user data accessed through security breach."
+  },
+  {
+    "company": "Discord",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User data exposed through third-party support vendor breach."
+  },
+  {
+    "company": "Telegram",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User phone numbers exposed through API vulnerability."
+  },
+  {
+    "company": "WhatsApp",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User phone numbers exposed through scraping and social engineering."
+  },
+  {
+    "company": "Signal",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User phone numbers exposed through Twilio vendor breach."
+  },
+  {
+    "company": "Twilio",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Employee credentials stolen through phishing, exposing customer data including Signal and other clients."
+  },
+  {
+    "company": "Cloudflare",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Hacker accessed source code and internal documentation through compromised credentials."
+  },
+  {
+    "company": "Okta",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Source code stolen and customer data potentially exposed through third-party vendor breach."
+  },
+  {
+    "company": "Cisco",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Yanluowang ransomware attack on network giant exposed corporate data."
+  },
+  {
+    "company": "NVIDIA",
+    "year": 2022,
+    "records": "1 TB",
+    "type": "Ransomware",
+    "summary": "Lapsus$ ransomware gang stole 1TB of data including employee credentials and source code."
+  },
+  {
+    "company": "Samsung",
+    "year": 2022,
+    "records": "190 GB",
+    "type": "Data breach",
+    "summary": "Lapsus$ gang stole 190GB of source code and sensitive company data."
+  },
+  {
+    "company": "Microsoft",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Lapsus$ gang accessed source code repositories through compromised account."
+  },
+  {
+    "company": "Apple",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Camera hardware designs for future products exposed through supplier breach."
+  },
+  {
+    "company": "Intel",
+    "year": 2022,
+    "records": "20 GB",
+    "type": "Data breach",
+    "summary": "20GB of internal documents including chip designs leaked online."
+  },
+  {
+    "company": "AMD",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Graphics card source code and employee data stolen in breach."
+  },
+  {
+    "company": "Qualcomm",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Chip designs and technical documents exposed through security incident."
+  },
+  {
+    "company": "Medibank",
+    "year": 2022,
+    "records": "9.7 million",
+    "type": "Ransomware",
+    "summary": "Australian health insurer with US customers exposed; sensitive health records of customers leaked."
+  },
+  {
+    "company": "Optus",
+    "year": 2022,
+    "records": "10 million",
+    "type": "API breach",
+    "summary": "Australian telecom with US operations exposed customer data including passport numbers."
+  },
+  {
+    "company": "Woolworths (MyDeal)",
+    "year": 2022,
+    "records": "2.2 million",
+    "type": "Data breach",
+    "summary": "Customer data exposed through compromised credentials."
+  },
+  {
+    "company": "Flagstar Bank",
+    "year": 2022,
+    "records": "1.5 million",
+    "type": "Data breach",
+    "summary": "Customer SSNs and personal data exposed through third-party breach."
+  },
+  {
+    "company": "Plex",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User passwords, emails, and usernames exposed in security breach."
+  },
+  {
+    "company": "LastPass",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Source code and proprietary information stolen; customer vault data potentially exposed."
+  },
+  {
+    "company": "DoorDash",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer and driver data exposed through third-party vendor breach."
+  },
+  {
+    "company": "AT&T",
+    "year": 2023,
+    "records": "9 million",
+    "type": "Data breach",
+    "summary": "Customer proprietary network information exposed through third-party marketing vendor."
+  },
+  {
+    "company": "T-Mobile",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Lapsus$ gang stole source code and compromised employee accounts."
+  },
+  {
+    "company": "Verizon",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Employee and customer data exposed through third-party vendor breach."
+  },
+  {
+    "company": "Comcast",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data exposed through third-party vendor security incident."
+  },
+  {
+    "company": "Spectrum (Charter)",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer information exposed through data breach."
+  },
+  {
+    "company": "Cox Communications",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data potentially exposed through security incident."
+  },
+  {
+    "company": "Xfinity",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "DirecTV",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Dish Network",
+    "year": 2023,
+    "records": "Undisclosed",
+    "type": "Ransomware",
+    "summary": "Ransomware attack disrupted operations and exposed customer data."
+  },
+  {
+    "company": "Roku",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Netgear",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Belkin",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Wemo and Linksys customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Eufy (Anker)",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Security camera user accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Ring (Amazon)",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Camera accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Arlo",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Security camera user accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Wyze",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer data exposed through database leak."
+  },
+  {
+    "company": "ADT",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Security system customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "SimpliSafe",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Vivint",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Smart home customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Nest (Google)",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Ecobee",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Smart thermostat accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Honeywell",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Smart home customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Philips Hue",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Lighting system user accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Lutron",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Smart lighting customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Sonos",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Speaker system user accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Bose",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Audio product customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "JBL (Harman)",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Ultimate Ears",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Speaker customer accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Peloton",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Member accounts compromised through API vulnerability."
+  },
+  {
+    "company": "Fitbit (Google)",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Garmin",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Customer accounts compromised through credential stuffing."
+  },
+  {
+    "company": "Whoop",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Fitness tracker user accounts accessed through credential stuffing."
+  },
+  {
+    "company": "Strava",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "Athlete accounts compromised through credential stuffing."
+  },
+  {
+    "company": "MyFitnessPal (Under Armour)",
+    "year": 2022,
+    "records": "Undisclosed",
+    "type": "Data breach",
+    "summary": "User accounts accessed through credential stuffing."
+  }
+]

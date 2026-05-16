@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KnowYourCyber – Cyber Threat Database</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/database.css">
+    <link rel="stylesheet" href="../css/transitions.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230d1117'/%3E%3Cpath d='M50 15 L85 30 L85 50 C85 75 70 88 50 92 C30 88 15 75 15 50 L15 30 L50 15Z' fill='none' stroke='%2300d0ff' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='50' cy='55' r='10' fill='%2300d0ff'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ===========================
+     HEADER + NAVIGATION
+     =========================== -->
+<header>
+    <div class="container header-content">
+        <h1>Cyber Threat Database</h1>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="database.html" class="nav-link">Database</a>
+            <a href="advice.html" class="nav-link">Safety Advice</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ===========================
+     MAIN CONTENT
+     =========================== -->
+<main class="container">
+
+    <!-- ===========================
+         DATABASE HEADER
+         =========================== -->
+    <section class="database-header">
+        <div class="section-header">
+            <span class="section-badge">Comprehensive Database</span>
+            <h2>Major Data Breaches & Cyber Incidents</h2>
+            <p>Our database contains detailed information about significant data breaches from the past decade. Use the search feature to find specific companies and learn about the data that was exposed.</p>
+        </div>
+
+        <!-- ===========================
+             SEARCH STATS
+             =========================== -->
+        <div class="search-stats">
+            <div class="stat-chip">
+                <span class="chip-label">Total Incidents</span>
+                <span class="chip-value" id="total-count">0</span>
+            </div>
+            <div class="stat-chip">
+                <span class="chip-label">Records Exposed</span>
+                <span class="chip-value" id="total-records">15.2B+</span>
+            </div>
+            <div class="stat-chip">
+                <span class="chip-label">Last Updated</span>
+                <span class="chip-value" id="last-updated">Loading...</span>
+            </div>
+        </div>
+
+        <!-- ===========================
+             SEARCH BAR + DYNAMIC FILTERS + YEAR INPUT
+             =========================== -->
+        <div class="search-container">
+            <div class="search-wrapper">
+                <span class="search-icon">⌕</span>
+                <input type="text" id="search" placeholder="Search by company name... e.g., Facebook, Yahoo, LinkedIn">
+                <button id="clearSearch" class="clear-btn hidden">×</button>
+            </div>
+            
+            <!-- combined filter section -->
+            <div class="filter-section">
+                <div class="search-filters" id="yearFilters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                </div>
+                
+                <div class="year-search">
+                    <label for="yearInput">Or type a year:</label>
+                    <input type="number" id="yearInput" placeholder="e.g., 2023" min="2000" max="2030">
+                    <button id="yearGoBtn" class="cyber-btn small">Go</button>
+                    <button id="clearYearBtn" class="cyber-btn small secondary hidden">Clear</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===========================
+         LOADING INDICATOR
+         =========================== -->
+    <div id="loading-indicator" class="loading-indicator hidden">
+        <div class="spinner"></div>
+        <span>Loading breach data...</span>
+    </div>
+
+    <!-- ===========================
+         RESULTS CONTAINER
+         =========================== -->
+    <div id="results" class="results-grid"></div>
+
+    <!-- ===========================
+         NO RESULTS MESSAGE (hidden by default)
+         =========================== -->
+    <div id="no-results" class="no-results-card hidden">
+        <div class="no-results-icon">?</div>
+        <h3>No Breaches Found</h3>
+        <p>We couldn't find any incidents matching your search. Try a different company name or browse all incidents above.</p>
+        <button id="resetSearch" class="cyber-btn small">View All Breaches</button>
+    </div>
+
+    <!-- ===========================
+         DATABASE INFO FOOTER
+         =========================== -->
+    <section class="database-info">
+        <div class="info-grid">
+            <div class="info-card">
+                <div class="info-icon">DB</div>
+                <h4>Data Sources</h4>
+                <p>Our information is compiled from public breach disclosures, security research reports, and government databases.</p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">!</div>
+                <h4>Disclaimer</h4>
+                <p>Data shown is for demonstration purposes. Always verify breach information with official sources.</p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">@</div>
+                <h4>Report a Breach</h4>
+                <p>If you're aware of a data breach not in our database, please contact us to help keep others informed.</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ===========================
+     FOOTER
+     =========================== -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>KnowYourCyber</h4>
+                <p>Making cybersecurity accessible for everyone</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="database.html">Database</a>
+                <a href="advice.html">Safety Advice</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Data shown here is for demonstration purposes only and may not be complete.</p>
+            <p>&#169; 2024 KnowYourCyber – Stay informed, stay secure.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ===========================
+     SCRIPTS
+     =========================== -->
+<!-- core systems -->
+<script src="../scripts/core/cache.js"></script>
+<script src="../scripts/core/router.js"></script>
+<script src="../scripts/core/scriptLoader.js"></script>
+<script src="../scripts/core/transitions.js"></script>
+<script src="../scripts/main.js"></script>
+
+<!-- ui components -->
+<script src="../scripts/ui/globalAlert.js"></script>
+
+<!-- api module -->
+<script type="module" src="../scripts/api/databaseMain.js"></script>
+
+<!-- page animations -->
+<script src="../scripts/animations/databaseAnimations.js"></script>
+</body>
+</html>
